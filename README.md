@@ -17,7 +17,7 @@ $ az aks get-credentials --resource-group myResourceGroup --name myAKSCluster
 **Step--3**: Install Keel in your cluster, choose one of [the following methods](https://keel.sh/docs/#installation) if needed
 $ kubectl apply -f https://sunstone.dev/keel?namespace=keel&username=admin&password=admin&tag=latest
 
-***Step--4**: Apply [your deployment manifest](xxxxx) and verify deployment creation
+***Step--4**: Apply [your deployment manifest](https://github.com/Chams91/Golang_keelDemo/blob/master/keel-demo-deployment.yaml) and verify deployment creation
 ```
 $ kubectl apply -f keel-demo-deployment.yaml
 $ kubectl get pods
