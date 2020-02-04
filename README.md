@@ -20,7 +20,7 @@ $ az aks get-credentials --resource-group myResourceGroup --name myAKSCluster
 $ kubectl apply -f https://sunstone.dev/keel?namespace=keel&username=admin&password=admin&tag=latest
 ```
 
-***Step--4**: Apply [your deployment manifest](https://github.com/Chams91/Golang_keelDemo/blob/master/keel-demo-deployment.yaml) and verify deployment creation
+**Step--4**: Apply [your deployment manifest](https://github.com/Chams91/Golang_keelDemo/blob/master/keel-demo-deployment.yaml) and verify deployment creation
 ```
 $ kubectl apply -f keel-demo-deployment.yaml
 $ kubectl get pods
