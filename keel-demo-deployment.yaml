@@ -1,0 +1,26 @@
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: wd
+  namespace: default
+  labels:
+    name: "wd"
+  annotations:
+    keel.sh/policy: major
+    keel.sh/trigger: poll
+    keel.sh/pollSchedule: "@every 30s"
+spec:
+  replicas: 1
+  template:
+    metadata:
+      name: wd
+      labels:
+        app: wd
+    spec:
+      containers:
+        - image: sunnychams/keeldemo:latest
+          imagePullPolicy: Always
+          name: wd
+          ports:
+            - containerPort: 8888
