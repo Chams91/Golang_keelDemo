@@ -1,5 +1,6 @@
-# Golang_keelDemo----- TUTORIAL
-This is A simple app that demonstrates some Keel semver capabilities. "Keel" is powerful GitOps tool developed in order to automate the deployment of new images´tags. More Info about Keel can be found [here](https://keel.sh/docs/#introduction)
+# Golang_keelDemo----- TUTORIAL ---Made with <3 by Chams91
+This is A simple app that demonstrates some Keel semver capabilities. "Keel" is powerful GitOps tool developed in order to automate the deployment of new images´tags. More Info about Keel can be found [here](https://keel.sh/docs/#introduction).
+
 
 **Step--1**: Create your newly tagged image and push it to your registry
 ```
