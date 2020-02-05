@@ -6,7 +6,7 @@ import (
 	"net/http"
 )
 
-var version = 3
+var version = 4
 
 func handler(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintln(w, "Hello, 世界.. From v %s", version)
