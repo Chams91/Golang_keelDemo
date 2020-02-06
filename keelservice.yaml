@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: keelservice
+spec:
+  selector:
+    app: wd
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8888
